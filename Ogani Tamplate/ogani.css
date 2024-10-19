@@ -1,0 +1,746 @@
+* {box-sizing: border-box;}
+
+body{margin: 0;
+padding: 0%;
+}
+
+#header{background-color: #f5f5f5;
+width: 100%;
+height: 47px;
+display: grid;
+grid-template-columns: 0.8fr 0.4fr 10px 0.6fr 0.7fr  0.5fr 10px 0.3fr 10px 1fr;
+grid-template-rows: 47px;}
+#barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#barra>div{
+    width: 15%;
+    height: 40%;
+    background-color: #e2e1e1;
+}
+#barra2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#barra2>div{
+    width: 15%;
+    height: 40%;
+    background-color: #e2e1e1;
+}
+#barra3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#barra3>div{
+    width: 15%;
+    height: 40%;
+    background-color: #e2e1e1;
+}
+
+#email{grid-column: 2;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Cairo", sans-serif;
+font-size: 14px;
+color: #1c1c1c;}
+
+#afteremail{grid-column: 4;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Cairo", sans-serif;
+font-size: 14px;
+color: #1c1c1c;}
+
+
+
+#icones{display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+grid-column-start: 6;}
+
+#iconeemail{width: 22px; 
+padding-right: 8px;}
+#iconefacebook{width: 25px; padding-left: 15px; height: 12px; width: 15%;}
+#iconetwitter{width: 25px; padding-left: 14px;}
+#iconelinkedin{width: 25px; padding-left: 15px;}
+#iconepinterest{width: 25px; padding-left: 15px;}
+
+#language{display: flex;
+   justify-content: center;
+justify-content: space-around;
+align-items: center;
+font-size: 14px;
+color: #1c1c1c;
+font-family: "Cairo", sans-serif;
+grid-column-start: 8;
+}
+
+
+
+#setadalanguage{width: 14%;
+height: 7px;}
+
+
+#main{display: grid;
+grid-template-columns: 1.3fr 1.3fr 1fr 1fr 1.3fr 1.3fr;
+grid-template-rows: 80px 80px 431px 20px 263px;}
+
+#logo{grid-column: 2;}
+#logo>img{padding-left: 40px;
+margin-top: 20px;}
+
+#nav{ grid-column: 3/5;
+display: flex;
+margin-top: 30px;
+margin-block: 0;}
+
+#nav>ul {display: flex;
+list-style: none;
+justify-content: space-between;
+flex-grow: 2;}
+#nav>ul>li>a{ text-decoration: none;
+}
+
+
+#menu{ grid-column: 2;
+grid-row: 2/4;
+background-color: #7fad39;
+width: 83%;
+height: 45.5px;
+position: relative;
+display: flex;
+justify-content: left;
+align-items: center;
+padding-left: 30px;
+left: 40px;
+margin-top: 2px;}
+
+#busca{ grid-column: 3/6;
+grid-row: 2;}
+
+
+#banner{ grid-column: 3/6;
+grid-row: 3;
+padding-left: 15px;
+padding-right: 15px;}
+#txtbanner{position: relative;
+top: -20rem;
+z-index: 1;
+padding-left: 75px;}
+
+
+#prod01{ grid-row: 5;
+grid-column: 2;
+position: relative;
+margin-top: 30px;
+left: 40px;}
+
+#prod02{ grid-row: 5;
+grid-column: 3;
+padding-right: 15px;
+padding-left: 15px;
+position: relative;
+margin-top: 30px;}
+
+#prod03{ grid-row: 5;
+grid-column: 4;
+padding-right: 15px;
+padding-left: 15px;
+position: relative;
+margin-top: 30px;}
+
+#prod04{ grid-row: 5;
+grid-column: 5;
+padding-right: 15px;
+padding-left: 15px;
+position: relative;
+margin-top: 30px;}
+
+#fruitfresh{color: #7fad39;
+font-size: 14px;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: 4px;
+font-family: "Cairo", sans-serif;
+}
+h2{font-size: 46px;
+color: #252525;
+line-height: 52px;
+font-weight: 700;
+margin: 10px 0;
+font-family: "Cairo", sans-serif;}
+p{margin-bottom: 35px;
+font-size: 16px;
+font-family: "Cairo", sans-serif;
+color: #6f6f6f;
+font-weight: 400;
+line-height: 26px;
+margin: 0 0 15px 0;}
+#btnshopnow{display: inline-block;
+font-size: 14px;
+padding: 10px 28px 10px;
+text-transform: uppercase;
+background: #7fad39;
+letter-spacing: 2px;
+border: none;
+}
+
+#shopnow{text-decoration: none;
+color: #ffffff;
+font-weight: 700;}
+
+#home{color: #7fad39;
+font-size: 14px;
+font-family: "Cairo", sans-serif;
+font-weight: 900;
+width: 5%;}
+
+#shop{color: black;
+font-size: 14px;
+font-family: "Cairo", sans-serif;
+font-weight: 900;
+width: 5%;}
+
+#pages{color: black;
+font-size: 14px;
+font-family: "Cairo", sans-serif;
+font-weight: 900;
+width: 5%;}
+
+#blog{color: black;
+font-size: 14px;
+font-family: "Cairo", sans-serif;
+font-weight: 900;
+width: 5%;
+}
+
+#contact{color: black;
+font-size: 14px;
+font-family: "Cairo", sans-serif;
+font-weight: 900;
+width: 5%;}
+
+
+#freshfruit{font-size: 18px;
+color: #1c1c1c;
+font-weight: 700;
+letter-spacing: 2px;
+display: flex;
+position: absolute;
+top: 14rem;
+width: 80%;
+z-index: 1;
+justify-content: center;
+}
+
+#driedfruit{font-size: 18px;
+color: #1c1c1c;
+font-weight: 700;
+letter-spacing: 2px;
+display: flex;
+position: absolute;
+top: 14rem;
+width: 80%;
+z-index: 1;
+justify-content: center;}
+
+#vegetables{font-size: 18px;
+color: #1c1c1c;
+font-weight: 700;
+letter-spacing: 2px;
+display: flex;
+position: absolute;
+top: 14rem;
+width: 80%;
+z-index: 1;
+justify-content: center;}
+
+#drinkfruits{font-size: 18px;
+color: #1c1c1c;
+font-weight: 700;
+letter-spacing: 2px;
+display: flex;
+position: absolute;
+top: 14rem;
+width: 80%;
+z-index: 1;
+justify-content: center;}
+
+
+
+
+
+#categoriaicone{width: 2%;
+height: 16px;}
+
+#alldepartiments{color: white;
+font-weight: 700;
+font-size: 18px;
+font-family: "Cairo", sans-serif;
+position: relative;
+display: flex;
+justify-content: left;}
+
+#lista{position: absolute;
+top: 46px;
+color: #000;
+opacity: 0;
+border: solid 1px #ebebeb;
+width: 100%;
+display: flex;
+left: -1px;}
+
+.lista{text-decoration: none;
+display: flex;
+font-family: "Cairo", sans-serif;
+top: 80rem;
+z-index: 1;
+margin-bottom: 9px;
+justify-content: left;
+align-items: left;
+}
+
+#check{opacity: 0;
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;}
+
+#check:checked~#lista{opacity: 1;transition: 1s;}
+
+#categoria{font-weight: 700;
+font-family: "Cairo", sans-serif;
+color: black;
+padding-right: 5px;
+margin-top: 10px;
+padding-left: 15px;
+
+display: flex;
+}
+
+#busca{padding-left: 15px;}
+
+form{display: flex;
+border: solid 1px #ebebeb;
+align-items: center;
+width: 60%;
+position: relative;
+color: #ebebeb;}
+
+#busca input{border: none;
+outline: none;}
+
+
+#feature{display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin-top: 80px;}
+
+h2{color: black;
+font-size: 36px;
+font-weight: 700px;
+}
+
+
+#listafter{display: grid;
+grid-template-columns: 3fr 0.8fr 0.8fr 0.8fr 1fr 1fr 3fr;
+grid-template-rows: 27px;}
+
+#alllistafter{grid-column: 2; 
+position: relative;}
+#alllistafter::after{content: "";
+width: 20%;
+height: 2px;
+background-color: #7fad39;
+position: absolute;
+top: 100%;
+left: 40%;}
+.listaftertexto{display: flex;
+justify-content: center;
+font-family: "Cairo", sans-serif;
+font-size: 18px;}
+
+#produtos{display: grid;
+grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr 1.8fr;
+grid-template-rows: 270px 100px 270px 100px;
+gap: 30px;
+margin-top: 50px;}
+
+#feature{grid-column: 2;
+grid-row: 2;}
+
+#menuicone{width: 12%;
+padding-right: 10px;}
+#menuicone2{width: 14%;
+padding-left: 20px;}
+
+
+
+.textoprod{display: flex;
+align-items: center;
+justify-content: center;
+color: #252525;
+margin-top: 0;
+margin: 0;}
+
+
+h5{display: flex;
+align-items: center;
+justify-content: center;
+color: #252525;
+font-weight: 700;
+font-size: 18px;
+margin-top: 5px;
+font-family: "Cairo", sans-serif;
+margin: 0;}
+
+#banner2{display: grid;
+grid-template-columns: 2.5fr 3fr 3fr 2.5fr;
+grid-template-rows: 270px;
+gap: 30px;}
+
+#segundobanner{grid-column: 2;}
+#terceirobanner{grid-column: 3;}
+
+#barraverde::after{content: "";
+width: 30%;
+height: 4px;
+background-color: #7fad39;
+position: absolute;
+top: 100%;
+left: 38%;}
+
+#barraverde{position: relative;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+#latest{display: grid;
+grid-template-columns: 1fr 1.1fr 1.1fr 1.1fr 1fr;
+grid-template-rows: 543px;
+margin-top: 80px;
+gap: 40px;
+}
+
+.textolatest{font-weight: 700;
+color: #1c1c1c;
+font-family: "Cairo", sans-serif;
+font-size: 24px;}
+
+.almerão{margin-bottom: 25px;
+display: flex;
+flex-direction: row;}
+
+.pimentão{margin-bottom: 25px;
+display: flex;
+flex-direction: row;}
+
+.coxadefrango{margin-bottom: 25px;
+display: flex;
+flex-direction: row;}
+
+.textolatest2{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: left;}
+
+.textodoalmerão{padding-left: 25px;
+font-family: "Cairo", sans-serif;
+color: #252525;
+margin: 0;
+font-size: 16px;
+color: #252525;
+font-weight: 400;}
+
+.preçodoalmerão{ color: #000;
+font-family: "Cairo", sans-serif;
+justify-content: left;
+display: flex;
+padding-left: 25px;
+color: #252525;
+font-weight: 700;}
+
+#blog{display: grid;
+grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+grid-template-rows: 500px;
+gap: 30px;}
+
+#fromblog{display: flex;
+justify-content: center;
+align-items: center;
+color: #1c1c1c;
+font-weight: 700;
+font-family: "Cairo", sans-serif;
+font-size: 36px;
+margin-top: 10px;}
+
+#calendario{display: flex;
+color: #b2b2b2;}
+
+.calendario{width: 12%;}
+.textodocalendario{display: flex;
+justify-content: left;
+color: #b2b2b2;
+font-weight: 400;
+font-size: 16px;}
+.comentario{width: 15%;}
+.textodocomentario{display: flex;
+justify-content: left;
+color: #b2b2b2;
+font-weight: 400;
+font-size: 16px;}
+.alinhamentodalista{display: flex;
+flex-direction: row;
+width: 65%;}
+
+#adoblog{text-decoration: none;
+color: #000;
+font-size: 20px;
+font-weight: 700;
+margin-top: 0;
+margin-block: 0;}
+.adoblog{margin-top: 0;
+margin-block: 0;}
+
+.textodoblog{justify-content: left;
+display: flex;}
+
+#row{display: grid;
+grid-template-columns: 0.5fr 0.5fr 0.5fr 1.2fr ;
+grid-template-rows: 60px 252px 50px;}
+
+#ultimo{background-color: #F3F6FA;
+width: 100%;
+height: 413px;}
+
+#logo2{grid-column: 2;
+grid-row: 2;
+margin-bottom: 15px;
+}
+
+.textodoladodalogo{list-style: none;
+color: #252525;
+margin-bottom: 10;
+}
+
+#alinhamentodalogo{padding-left: 0;}
+
+#footer{grid-column: 3;
+grid-row: 2;
+display: flex;
+flex-direction: row;}
+
+
+.footerh6{font-family: "Cairo", sans-serif;
+font-weight: 700;
+font-size: 16px;
+margin: 0;}
+
+.footerlista{list-style: none; padding-right: 20px;}
+.footera{text-decoration: none;
+color: #252525;
+font-family: "Cairo", sans-serif;
+font-size: 14px;
+line-height: 32px;}
+
+#footerul{margin-top: 40px;
+padding-left: 0;}
+#footerul2{margin-top: 40px;}
+
+#footer2{grid-column: 4;
+grid-row: 2;}
+
+#footerp{font-size: 14px;
+color: #252525;
+margin-block: 30px;
+margin-top: 0;}
+
+#footeremail{width: 35%;
+height: 46px;
+border: solid 1px#ebebeb;
+position: relative;
+font-size: 14px;
+color: #1f1f1f;}
+
+#footerbutton{background-color: #7fad39;
+color: white;
+border: none;
+padding: 10px 30px;
+position: absolute;
+right: 490px;
+font-weight: 800;
+font-family: "Cairo", sans-serif;
+}
+
+.iconsfooter {border-radius: 50px;
+background-color: white;
+width: 40px;
+height: 40px;
+display: flex;
+justify-content: center;
+position: relative;
+margin-top: 30px;
+margin-left: 20px;
+border: solid 1px #e9e9e9;
+}
+
+#svgiconsfacebook{
+    width: 20px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+}
+#svgiconsinstagram{
+    width: 18px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#svgiconstwitter{
+    width: 16px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#svgiconspinterest{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#buscaform{width: 60%;
+height: 48px;}
+
+#textbusca{color: #ebebeb;
+    font-family: "Cairo", sans-serif;
+font-size: 16px;}
+
+#buscasearsh{background-color: #7fad39;
+color: white;
+border: none;
+padding: 11px 30px;
+position: absolute;
+top: 128px;
+right: 600px;
+font-weight: 800;
+font-family: "Cairo", sans-serif;}
+
+#allcategories{font-family: "Cairo", sans-serif;
+font-weight: 900;
+color: black;
+padding-left: 15px;
+display: flex;
+width: 40%;
+align-items: center;}
+
+#svgcategories{width: 20%;
+height: 16px;
+display: flex;
+padding-left: 30px;}
+
+#telefone{width: 15%;
+height: 50px;
+border-radius: 50px;
+grid-row: 2;
+grid-column: 5;
+background-color: #f2f2f2;
+margin-left: 100px;
+display: flex;
+justify-content: center;
+align-items: center;}
+#barradesabao{
+width: 1px;
+height: 20px;
+background-color: #e2e1e1;
+margin-left: 20px;
+}
+
+#textodoladodosvg{grid-column: 5;
+grid-row: 2;
+margin-left: 130px;
+}
+
+#textoembaixodotelefone{font-family: "Cairo", sans-serif;
+font-size: 14px;
+color: #6f6f6f;
+margin-left: 40px;}
+
+#iconesbolinha{display: flex;
+flex-direction: row;}
+
+#divfooterfinal{border-top: solid 1px #e7e7e7;
+grid-column: 2;}
+
+#pfooterfinal{display: flex;
+justify-content: left;
+align-items: left;
+margin-top: 20px;
+}
+
+#colorlib{text-decoration: none;
+color: #007bff;}
+
+#payment-item{display: flex;
+margin-left: 255px;}
+
+#ultimalinha{display: grid;
+grid-template-columns: 0.5fr 2fr 0.5fr;
+grid-template-rows: 50px;}
+
+
+#usersvg{width: 10%;
+height: 10px;}
+
+#user{display: flex;
+justify-content: left;
+align-items: center;
+font-family: "Cairo", sans-serif;
+font-size: 14px;}
+
+#droplist{position: relative;
+list-style: none;
+width: 100%;
+display: flex;
+justify-content: center;
+align-self: center;
+padding-left: 0;
+margin-right: 0px;
+margin-left: 0;}
+
+
+#dropdow{position: absolute;
+list-style: none;
+z-index: -60;
+left: -70px;
+top: 30px;
+background-color: #000;
+color: white;
+width: 130%;
+height: 60px;
+margin-top: 10px;
+transition: 0.5s;
+}
+
+#language:hover>#dropdow{
+    opacity: 1;
+}
+
+
